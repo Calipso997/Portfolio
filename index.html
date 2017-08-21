@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="copyright" content="Copyright Marek Kamzol">
+	<meta name="author" content="Marek Kamzol">
+	<meta name="description" content="Portfolio">
+	<meta name="keywords" content="Portfolio, prace, doświadczenie, staż">
+	<title>Portfolio</title>
+	<!-- ~~CSS~~-->
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- ~~FONT~~-->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+</head>
+
+<body>
+<a data-scroll id="myBtn" class="link" href="#top"><i class="fa fa-angle-double-up fa-3x" aria-hidden="true"></i>
+</a>
+	<container>
+	<!-- ~~~~NAWIGACJA~~~~ -->
+	<div class="navigacja">
+		<div class="container"> 
+			<nav class="navbar navigacja navbar-toggleable-md navbar-light bg-faded "> <!-- sticky-top -->
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img id="navimg" src="img/logo.png" alt="Logo"></a>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#About_Me">O Mnie <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#project">Projekty</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Kontakt</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		</div>
+		<!-- ~~~~~HERO IMG~~~~ -->
+		<div class="me">
+			<div class="hero-image">
+				<div class="hero-text">
+					<h1>Marek Kamzol</h1>
+					<p>Junior Front-end Developer</p>				
+				</div>
+				<div class="herobutton">
+					<a data-scroll href="#About_Me" class="hero_button">Poznaj Mnie</a>
+				</div> 
+			</div>
+		</div>
+		<!-- ~~~~O MNIE~~~~ -->
+		<section id="About">			
+				<div class="row" id="About_Me">					
+					<div class="img_padding col-sm-12 col-lg-4">
+						<img id="my_photo" class="img-circle img_size" src="img/my_photo.jpg" alt="my_photo">
+					</div>
+					<div class="About_Me_txt img_padding col-sm-12 col-lg-8">
+					<div class="col-sm-12 col-lg-12">
+						<h3>Witam, jestem junior Front-end Developerem i w tym miejscu chciał bym opowiedzieć Ci coś o sobie</h3><br>
+						<p> Nazywam się Marek Kamzol i mam 28 lat. W życiu podjąłem się wielu różnych prac szukając swego miejsca na rynku pracy.</p> 
+						<p>Ostatecznie postanowiłem zająć się Frontendem. Przekwalifikowałem się kończąc kurs ECCC organizowany przez Ośrodek Szkoleniowo Wdrożeniowy  w ramach projektu Work On 2.</p>
+						<p>Podczas szkolenia pracowałem w metodyce scrum.  Nauczono mnie korzystać z najnowszych technologii takich jak HTML5, CSS3, Bootstrap4, JS i Wordpressa.  </p>
+						<p>Obecnie poszukuję rozwijającej się firmy w której mógł bym odbyć staż. </p>
+						<p>Link do strony ośrodka i projektu: </p>
+						</div>
+						<div class="woosw_img">
+						<div class="row">	
+						<div class="work_on col-sm-6 col-lg-6"> 	
+						<a href="http://www.work-on.pl/" target="_blank"><img src="img/work.on.png" class="img_size" alt="Work On 2" border="0" /></a>
+						</div>
+						<div class="work_on col-sm-6 col-lg-6"> 
+						<a href="http://www.osw.bydgoszcz.pl/" target="_blank"><img src="img/osw.png" class="img_size" alt="Ośrodek Szkoleniowo-Wdrożeniowy" border="0" /></a>						</div>	
+						</div>
+						</div>		
+					</div>
+				</div>			
+		</section>
+		<!-- ~~~MY PROJECTS~~~~ -->
+		<section class="MyProject">			
+			<div id="project" class="project_txt col-sm-12 col-lg-12">
+				<h1>Projekty</h1>
+				<p>Poniżej znajdą Państwo projekty wykonane przeze mnie wraz z ich krótkim opisem</p>
+			</div>			
+			<div class="projekt_links">
+				<div class="row">
+					<div class="img_txt text-center col-sm-4 col-lg-4"> 
+						<a href="https://calipso997.github.io/Projekt-koncowy/" target="_blank"><img class="img_project" src="img/Craftspace.PNG" alt="Craftspace" border="0" /></a>
+						<h2>Projekt zrealizowany na zakończenie kursu</h2>
+					</div>
+					<div class="img_txt text-center col-sm-4 col-lg-4"> 
+						<a href="https://calipso997.github.io/Trener/" target="_blank"><img class="img_project" src="img/MateuszCzajaTrenerPersonalny.jpg" alt="TrenerPersonalny" border="0" /></a>
+						<h2 class="paddingtxt">Projekt zrealizowany dla początkującego trenera personalnego według jego wytycznych</h2>
+					</div>
+					<div class="img_txt text-center col-sm-4 col-lg-4"> 
+						<a id="CVclick" onClick="CValert()" target="_blank"><img class="img_project" src="img/CV.jpg" alt="CV" border="0" /></a>
+						<h2>CV</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+<!-- ~~~~~KONTAKT~~~~ -->
+		<section>
+			<div id="contact" class="contact_txt text-center col-sm-12 col-lg-12">
+				<h3>Kontakt:</h3> 
+			</div>
+			<div class="row contact_content">				
+				<div class="git col-sm-12 col-lg-4 text-center">
+					<a href="https://github.com/Calipso997" target="_blank" title="Github">
+						<i class="fa fa-github fa-4x" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="dane col-sm-12 col-lg-4 text-center">			
+					<h3>Marek Kamzol</h3>
+					<p>Front-end Developer Gdańsk</p>
+					<i class="fa fa-phone fa-1x" aria-hidden="true"></i> <i>tel. 798-977-911</i><br>
+					<i class="fa fa-envelope fa-1x" aria-hidden="true"></i> <i>marekkamzol@tlen.pl</i>
+				</div>
+				<div class="linkedin col-sm-12 col-lg-4 text-center">
+					<a href="https://www.linkedin.com/in/marek-kamzol-95a0aa106/" target="_blank" title="Linkedin">
+						<i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</section>	
+	</container>
+	<!-- ~FOOTER~~ -->
+<footer>
+	<div class="row text-center">
+		<div class="col-sm-12">Wszystkie prawa zastrzeżone © Kamzol Marek 2017 </div>
+	</div>
+</footer>
+
+<!-- ~~SCRIPTS~~ -->
+<script type="text/javascript" src="script/jquery.min.js"></script>
+<script type="text/javascript" src="script/bootstrap.min.js"></script>
+<script type="text/javascript" src="script/script.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- pobrane materialy:
+Photo by Caspar Rubin on Unsplash herophoto -->
