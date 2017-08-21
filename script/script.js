@@ -14,7 +14,7 @@ function scrollFunction() {
       document.getElementById("gora").classList.remove("trans");
    }
 };
-function CValert() {
-    document.getElementById("CVclick")
-     alert("Cv przesyłam po kontakcie meilowym marekkamzol@tlen.pl");
-}
+// function CValert() {
+//     document.getElementById("CVclick")
+//      alert("Cv przesyłam po kontakcie meilowym marekkamzol@tlen.pl");
+// }
